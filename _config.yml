@@ -1,3 +1,4 @@
-theme: minima
 title: ""
 description: ""
+minima:
+  header_pages: []
