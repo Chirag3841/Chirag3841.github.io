@@ -1,3 +1,8 @@
+---
+layout: default
+title: ""
+---
+
 # Chirag Sharma
 **Computer Science & Engineering | B.Tech, MSIT Delhi**
 
