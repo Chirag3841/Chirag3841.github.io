@@ -2,7 +2,7 @@
 **Computer Science & Engineering | B.Tech, MSIT Delhi**
 
 📧 chiragsharma23082005@gmail.com | 📞 +91-8178478578 | 📍 New Delhi, India
-[GitHub Profile](#) | [LinkedIn Profile](#)
+[GitHub Profile](https://github.com/Chirag3841) | [LinkedIn Profile](https://www.linkedin.com/in/chirag-sharma-301b18290/)
 
 ---
 
