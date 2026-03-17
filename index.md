@@ -6,15 +6,13 @@ title: ""
 # Chirag Sharma
 Computer Science & Engineering | B.Tech, MSIT Delhi 📍 New Delhi, India
 
-[GitHub](https://github.com/Chirag3841) | [LinkedIn](https://www.linkedin.com/in/chirag-sharma-301b18290/) | [Mail](mailto:chiragsharma23082005@gmail.com)
+[GitHub](https://github.com/Chirag3841) | [LinkedIn](https://www.linkedin.com/in/chirag-sharma-301b18290/) | 📧 chiragsharma23082005@gmail.com
 
 ---
 
 Motivated 3rd-year B.Tech CSE student with real-world experience in Machine Learning, NLP, and developing data-powered applications. Strong command of Python, SQL, PyTorch and Scikit-learn.
 
 Experienced in architecting end-to-end AI workflows, optimizing data pipelines, and building analytics dashboards with a strong focus on scalability, reliability, and production deployment.
-
-Open source contributor to Matplotlib, pvlib-python, and ArviZ.
 
 ---
 
@@ -27,6 +25,19 @@ Open source contributor to Matplotlib, pvlib-python, and ArviZ.
 - Achieved a mean cross-validated **R² score of 0.986** after hyperparameter tuning.
 - Demonstrated how predictive analytics can drive environmental monitoring and awareness generation.
 - Contributed to long-term climate strategy formulation using data-driven insights.
+
+---
+
+## 🌐 Open Source Contributions
+
+### Matplotlib
+- Added Ctrl-based 3D rotation snapping with 5-degree increments and introduced the `axes3d.snap_rotation` rcParam for configurable angle snapping.
+
+### pvlib-python
+- Added usage examples for `run_model_from_poa` and `run_model_from_effective_irradiance` in pvlib ModelChain, including single-array and multi-array workflows.
+
+### ArviZ
+- Implemented `__array__` protocol support in `convert_to_datatree`, improving compatibility with array-like libraries.
 
 ---
 
