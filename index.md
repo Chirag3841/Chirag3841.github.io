@@ -33,6 +33,7 @@ Experienced in architecting end-to-end AI workflows, optimizing data pipelines, 
 ### Matplotlib
 - Added Ctrl-based 3D rotation snapping with 5-degree increments and introduced the `axes3d.snap_rotation` rcParam for configurable angle snapping.
 - Fixed missing xlim_changed / ylim_changed callbacks when axis limits expand via set_xticks / set_yticks, ensuring consistent behavior.
+- Investigated a DST-related bug in AutoDateLocator and proposed a UTC normalization approach to resolve tick spacing issues caused by repeated timestamps.
 
 ### pvlib-python
 - Added usage examples for `run_model_from_poa` and `run_model_from_effective_irradiance` in pvlib ModelChain, including single-array and multi-array workflows.
