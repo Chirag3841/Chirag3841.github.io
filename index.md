@@ -41,6 +41,9 @@ Experienced in architecting end-to-end AI workflows, optimizing data pipelines, 
 ### ArviZ
 - Implemented `__array__` protocol support in `convert_to_datatree`, improving compatibility with array-like libraries.
 
+### PyMC
+- Fixed a crash in vectorize_over_posterior when using distributions like ZeroSumNormal by removing the explicit dtype argument.
+
 ---
 
 ## 🧠 Projects
