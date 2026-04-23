@@ -44,6 +44,7 @@ Experienced in architecting end-to-end AI workflows, optimizing data pipelines, 
 
 ### PyMC
 - Fixed a crash in vectorize_over_posterior when using distributions like ZeroSumNormal by removing the explicit dtype argument.
+- Rejected "/" in variable names via _validate_name(), preventing conflicts with Xarray/DataTree.
 
 ---
 
