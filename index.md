@@ -53,7 +53,7 @@ Experienced in architecting end-to-end AI workflows, optimizing data pipelines, 
 ### Flipkart Sentiment Analysis
 - Fine-tuned DistilBERT on 205K+ Flipkart reviews achieving **96.27% validation accuracy**.
 - Implemented fp16 mixed precision training and class imbalance handling with random oversampling.
-- Built real-time inference pipeline with confidence scoring using PyTorch and HuggingFace Transformers.
+- Built and deployed real-time inference pipeline with confidence scoring using PyTorch and HuggingFace Transformers.
 
 **Tech:** DistilBERT · PyTorch · HuggingFace Transformers · NLP
 
@@ -65,7 +65,7 @@ Experienced in architecting end-to-end AI workflows, optimizing data pipelines, 
 **Tech:** RAG · FAISS · Sentence Transformers · Mistral-7B · AST
 
 ### Steel Fault Detection
-- Developed an end-to-end ML pipeline for steel fault detection using high-dimensional sensor data.
+- Developed and deployed an end-to-end ML pipeline for steel fault detection using high-dimensional sensor data.
 - Applied feature engineering, dimensionality reduction, and imbalance handling techniques.
 - Benchmarked XGBoost, SVM, and Random Forest for optimal fault classification.
 
@@ -76,7 +76,7 @@ Experienced in architecting end-to-end AI workflows, optimizing data pipelines, 
 ## 🎓 Education
 
 ### Maharaja Surajmal Institute of Technology, GGSIPU
-B.Tech in Computer Science & Engineering | 2023 – 2027
+B.Tech in Computer Science & Engineering | 2023 – 2027 | CGPA:9.52
 
 ### DAV Public School
-Grade 12 | 2022 – 2023
+Grade 12 | 2022 – 2023 | Percentage:90.6
