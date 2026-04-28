@@ -21,7 +21,7 @@ Experienced in architecting end-to-end AI workflows, optimizing data pipelines, 
 ### Edunet Foundation
 **Artificial Intelligence & Data Analytics Intern**
 
-- Developed a Carbon Emission Forecasting tool using RandomForestRegressor trained on historical data (1990–2008) to predict 20 years of future emissions (2009–2028).
+- Developed a `Carbon Emission Forecasting` tool using `RandomForestRegressor` trained on historical data (1990–2008) to predict 20 years of future emissions (2009–2028).
 - Achieved a mean cross-validated **R² score of 0.986** after hyperparameter tuning.
 - Demonstrated how predictive analytics can drive environmental monitoring and awareness generation.
 - Contributed to long-term climate strategy formulation using data-driven insights.
@@ -32,9 +32,9 @@ Experienced in architecting end-to-end AI workflows, optimizing data pipelines, 
 
 ### Matplotlib
 - Added Ctrl-based 3D rotation snapping with 5-degree increments and introduced the `axes3d.snap_rotation` rcParam for configurable angle snapping.
-- Fixed missing xlim_changed / ylim_changed callbacks when axis limits expand via set_xticks / set_yticks, ensuring consistent behavior.
-- Investigated a DST-related bug in AutoDateLocator and proposed a UTC normalization approach to resolve tick spacing issues caused by repeated timestamps.
-- Improved documentation for SecondaryAxes limit behaviour,clarifying that set_xlim / set_ylim on secondary axes are ineffective and suggesting better API usage.
+- Fixed missing `xlim_changed / ylim_changed` callbacks when axis limits expand via `set_xticks / set_yticks`, ensuring consistent behavior.
+- Investigated a DST-related bug in `AutoDateLocator` and proposed a `UTC normalization` approach to resolve tick spacing issues caused by repeated timestamps.
+- Improved documentation for `SecondaryAxes limit` behaviour,clarifying that `set_xlim / set_ylim` on secondary axes are ineffective and suggesting better API usage.
 
 ### pvlib-python
 - Added usage examples for `run_model_from_poa` and `run_model_from_effective_irradiance` in pvlib ModelChain, including single-array and multi-array workflows.
@@ -43,31 +43,33 @@ Experienced in architecting end-to-end AI workflows, optimizing data pipelines, 
 - Implemented `__array__` protocol support in `convert_to_datatree`, improving compatibility with array-like libraries.
 
 ### PyMC
-- Fixed a crash in vectorize_over_posterior when using distributions like ZeroSumNormal by removing the explicit dtype argument.
-- Rejected "/" in variable names via _validate_name(), preventing conflicts with Xarray/DataTree.
+- Fixed a crash in `vectorize_over_posterior` when using distributions like `ZeroSumNormal` by removing the explicit dtype argument.
+- Rejected "/" in variable names via `_validate_name()`, preventing conflicts with Xarray/DataTree.
+- Added validation in `Model.add_coord` and `Model.add_named_variable` to prevent coordinate and variable name collisions, ensuring models
+  fail early instead of causing silent downstream issues
 
 ---
 
 ## 🧠 Projects
 
 ### Flipkart Sentiment Analysis
-- Fine-tuned DistilBERT on 205K+ Flipkart reviews achieving **96.27% validation accuracy**.
-- Implemented fp16 mixed precision training and class imbalance handling with random oversampling.
-- Built and deployed real-time inference pipeline with confidence scoring using PyTorch and HuggingFace Transformers.
+- Fine-tuned `DistilBERT` on 205K+ Flipkart reviews achieving **96.27% validation accuracy**.
+- Implemented `fp16` mixed precision training and class imbalance handling with random oversampling.
+- Built and deployed real-time inference pipeline with confidence scoring using `PyTorch` and `HuggingFace Transformers`.
 
 **Tech:** DistilBERT · PyTorch · HuggingFace Transformers · NLP
 
 ### RAG File QA System
-- Built a RAG-based Code Assistant enabling semantic Q&A, debugging, and code generation for Python files.
-- Implemented FAISS vector search with Sentence Transformers and Tree-sitter AST parsing.
-- Used Mistral-7B as the backbone LLM for context-aware responses.
+- Built a `RAG-based Code Assistant` enabling semantic Q&A, debugging, and code generation for Python files.
+- Implemented `FAISS` vector search with `Sentence Transformers` and Tree-sitter `AST` parsing.
+- Used `Mistral-7B` as the backbone LLM for context-aware responses.
 
 **Tech:** RAG · FAISS · Sentence Transformers · Mistral-7B · AST
 
 ### Steel Fault Detection
 - Developed and deployed an end-to-end ML pipeline for steel fault detection using high-dimensional sensor data.
 - Applied feature engineering, dimensionality reduction, and imbalance handling techniques.
-- Benchmarked XGBoost, SVM, and Random Forest for optimal fault classification.
+- Benchmarked `XGBoost`, `SVM`, and `Random Forest` for optimal fault classification.
 
 **Tech:** XGBoost · SVM · Random Forest · Scikit-learn
 
